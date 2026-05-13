@@ -1,37 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Landing page pour une application mobile qui n'est pas encore sortie.
 
-## Getting Started
 
-First, run the development server:
+Barre de Navigation (Header) : Un menu flottant avec un effet de survol dynamique, incluant un bouton "INSTALLER" bien visible et un menu "burger" animé pour la version mobile.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Section Hero (Accroche) :
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Un titre massif avec une mise en forme stylisée ("CoolTrip").
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Un message clair sur la proposition de valeur : aider à voyager en simplifiant l'administratif.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Des Appels à l'Action (CTA) doubles : un bouton principal pour démarrer et un bouton spécifique au style Apple pour l'App Store.
 
-## Learn More
+Un visuel produit : Un mockup de téléphone à droite pour montrer l'interface de l'application.
 
-To learn more about Next.js, take a look at the following resources:
+Section "Comment ça marche ?" : Une grille de 6 cartes explicatives détaillant les fonctionnalités (Identité, Résultats, Suivi, Planning, Paramètres, et Prêt à partir).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Preuve Sociale : Un bandeau final mettant en avant une communauté de "100 000 utilisateurs" pour instaurer la confiance.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+⚙️ Aspects Techniques
+Framework : Construit avec Next.js (indiqué par "use client" et l'import de next/image).
 
-## Deploy on Vercel
+Mise en page : Utilise Tailwind CSS pour le responsive design (changement de disposition entre flex-col et lg:flex-row).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# Cooltrip" 
+Interactivité : Gestion d'un état (useState) pour l'ouverture et la fermeture du menu mobile avec des animations de transition fluides.
